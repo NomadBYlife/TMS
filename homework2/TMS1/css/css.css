@@ -1,169 +1,183 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
+
 .btn {
-  width: 270px;
-  height: 58px;
-  font-family: "Open Sans";
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  cursor: pointer;
-  text-align: center;
-  text-transform: capitalize;
-  color: #ffffff;
+    max-width: 270px;
+    width: 100%;
+    padding: 16px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
 }
-.section-tabs__tabs-items {
-  width: 100%;
-  margin-top: 100px;
-  /* display: flex; */
-  align-items: center;
-  vertical-align: middle;
+
+.social_media {
+    background: #F8EFEF;
+    margin-bottom: 100px;
 }
-.section-tabs-items__item {
-  display: inline-block;
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  text-transform: uppercase;
-  width: 201px;
-  height: 39px;
-  text-align: center;
-  object-fit: fill;
-  margin-bottom: -2px;
-  cursor: pointer;
-  /* display: flex;  */
-  align-items: center;
-  text-align: center;
+
+.tabs {
+    margin-bottom: 118px;
 }
+
+.awesom {
+    margin-bottom: 110px;
+}
+
+.tabs-items {
+    width: 100%;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.tabs__item {
+    display: inline-block;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    max-width: 201px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -1px;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
 .item-active {
-  border: 1px solid #c6cbcd;
-  border-bottom: 1px solid #fff;
-  border-radius: 5px 5px 0px 0px;
+    border: 1px solid #c6cbcd;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px 5px 0px 0px;
 }
 
-.section-tabs-items__item:hover {
-  border: 1px solid #c6cbcd;
-  border-bottom: 1px solid #fff;
-  /* border-bottom: none; */
-  border-radius: 5px 5px 0px 0px;
+.tabs__item:hover {
+    border: 1px solid #c6cbcd;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px 5px 0px 0px;
 }
 
-.section-tabs__wrapper {
-  border: 1px solid #c6cbcd;
+.tab {
+    border: 1px solid #c6cbcd;
 }
 
-.section-tabs__content {
-  display: inline-block;
-  width: 694px;
-  padding: 55px 29px 54px 101px;
-  overflow: auto;
-}
-.content__title {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 41px;
-  color: #000000;
-  margin-bottom: 57px;
+.tab__content {
+    display: inline-block;
+    width: 59%;
+    padding: 55px 29px 54px 101px;
+    vertical-align: top;
 }
 
-.content__info {
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-  margin-bottom: 26px;
-}
-.content__info_last {
-  margin-bottom: 84px;
+.tab__title {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 57px;
 }
 
-.content__btn {
-  background: #ec7979;
-  border: none;
+.tab__info {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 26px;
 }
 
-.section-tabs__wrap-img {
-  display: inline-block;
-  width: 469px;
-  overflow: auto;
-}
-.section-tabs__image {
-  width: 100%;
-  height: 100%;
-  /* overflow: hidden; */
-  object-fit: fill;
+.tab__wrap {
+    margin-bottom: 84px;
 }
 
-.conteiner {
-  max-width: 1202px;
-  padding: 0 16px;
-  margin: 0 auto;
+.tab__btn {
+    background: #ec7979;
+    border: none;
 }
-.section-awesom__title {
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 42px;
-  text-transform: uppercase;
-  margin: 118px auto 40px auto;
-  text-align: center;
+
+.tab__wrap-img {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
 }
-.section-awesom__separator {
-  border-bottom: 1px solid #ec7979;
-  width: 170px;
-  margin: 0 auto 40px;
+
+.tab__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
-.section-awesom__subtitle {
-  font-weight: 400;
-  font-size: 18px;
-  text-align: center;
-  line-height: 21px;
-  color: #86878b;
-  margin-bottom: 92px;
+
+.container {
+    max-width: 1202px;
+    padding: 0 16px;
+    margin: 0 auto;
 }
-.section-awesom__content-items {
-  margin-bottom: 110px;
+
+.awesom__title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.awesom__separator {
+    border-bottom: 1px solid #ec7979;
+    width: 170px;
+    margin: 0 auto 40px;
+}
+
+.awesom__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 21px;
+    color: #86878b;
+    margin-bottom: 92px;
 }
 
 .content-items__item {
-  max-width: 371px;
-  display: inline-block;
-  margin-right: 24px;
+    max-width: 371px;
+    display: inline-block;
+    margin-right: 24px;
 }
+
 .content-items__item:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .content-items__wrap-image {
-  width: 92px;
-  height: 92px;
-  border-radius: 50%;
-  border: 1px solid #ec7979;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-bottom: 24px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 1px solid #ec7979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 24px;
 }
+
 .content-items__title {
-  font-family: "Open Sans", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 33px;
-  margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 30px;
 }
 
 .content-items__info {
-  font-weight: 400;
-  color: #000000;
-  line-height: 21px;
-  margin: 0;
-  text-align: center;
+    font-weight: 400;
+    color: #000000;
+    line-height: 21px;
+    text-align: center;
 }
